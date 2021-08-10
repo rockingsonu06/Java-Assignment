@@ -1,0 +1,21 @@
+  
+  Solution By : Prashant Kumar 
+
+  Q1 : 1. Mention the difference between interpreter and compiler.
+
+    Solution : 
+                    Compiler
+
+         1. Compliers reads the source code, outputs executable code
+         2. Translates software written in a higher-level language into instructions that computer can understand.
+         3. It converts the text that a programmer writes into a format the CPU can understand.
+         4. The process of compilation is relatively complicated. It spends a lot of time analyzing and processing the program.
+         5. The executable result is some form of machine-specific binary code.
+
+                  Interpreter
+
+         1. The interpreter converts the source code line-by-line during RUN Time.
+         2. Interpret completely translates a program written in a high-level language into machine level language.
+         3. Interpreter allows evaluation and modification of the program while it is executing.
+         4. Relatively less time spent for analyzing and processing the program
+         5. Program execution is relatively slow compared to compiler

@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Student {
+
+	int roll;
+	String name; 
+	float marks;
+	
+	void input()
+	{
+		
+	
+		 
+		Scanner s = new Scanner(System.in);
+
+                System.out.println("Enter roll");
+		 roll = s.nextInt();
+
+		System.out.println("Enter Your Name");
+		 name = s.next();
+		 
+		
+		
+		System.out.println("Enter Your Marks");
+		 marks =s.nextFloat();
+		
+		
+	}
+	
+	void display()
+	{
+		System.out.println( "Roll No  is :"+roll);
+		System.out.println("Name is :"+name);
+		System.out.println("Marks is :"+marks);
+		
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Student sd = new Student();
+		
+	sd.input();
+	sd.display();
+		
+		
+
+
+	}
+
+}
